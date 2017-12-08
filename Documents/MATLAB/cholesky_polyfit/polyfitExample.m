@@ -4,10 +4,10 @@ clear
 clc
 format short g
 
-N = 3;
+N = 7;
 x=linspace(0,2*pi,N);
-y=(x.^2) + 0.05*randn(1,length(x));
-M = 3-1;
+y=cos(x) + 0.05*randn(1,length(x));
+M = 7-1;
 % solve Ax=b
 %       Ap=y, 
 % A consists of inputs x, w/ length N and order M
